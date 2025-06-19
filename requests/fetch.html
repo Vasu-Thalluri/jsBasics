@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <style>
+        table, th, td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        th{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <button id="fetch">GetData</button>
+    <button id="send">SendData</button><br/><br/><br/>
+    <table id="tbl">
+        <tbody>
+            <thead>
+                <tr>
+                    <th id="thead">S.No</th>
+                    <th id="thead">First Name</th>
+                    <th id="thead">Last Name</th>
+                    <th id="thead">E-Mail</th>
+                </tr>
+            </thead>
+            <tbody id="user-list">
+
+            </tbody>
+        </tbody>
+    </table>
+    <!-- <div id="user-list"></div> -->
+    <script src="./fetch.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="intro"></h1>
+    <!-- <script src="/variables.js"></script> -->
+    <script>
+        // Here are three types of programm for printing hello world. (this commenting(//) is called single line comment)
+
+        /* Here the getElementById() method is one of the most common methods in the "HTML DOM". 
+        It is used almost every time you want to read or edit an HTML element. (this commenting(/*) is called multi line comment) */
+
+        document.write("Hello World");
+        document.getElementById("intro").innerHTML = "Hello World";
+        console.log("Hello World");
+        function windowFunction(){
+            console.log(this);   
+        }
+        windowFunction();
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+let a = 10;
+let b = 5;
+console.log(a < b);
+console.log(a > b);
+console.log(a);
+//console.log(b = a);
+console.log(b);
+//console.log(a = b);
+console.log(b);
+console.log(a);
+console.log(a >= 10);
+console.log(a <= 10);
+
+a = 10;
+b = "10";
+console.log(a == b);
+console.log(a != b);
+console.log(a !== b);
+console.log(a === b);
+// console.log(!(a === b));
+// console.log(!(a == b));
